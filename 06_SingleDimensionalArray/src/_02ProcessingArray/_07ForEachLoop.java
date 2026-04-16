@@ -9,5 +9,6 @@ public class _07ForEachLoop {
         for(int i: arr){
             System.out.print(i+" ");
         }
+        scanner.close();
     }
 }
