@@ -12,9 +12,9 @@ public class _02CreatingArray {
                 3. it assigns the reference of the newly created array to a variable arrayRefVar.
          */
         // array declaration
-        int[] array;
+        // int[] array;
         // array creation
-        array = new int[5];
+        // array = new int[5];
 
     }
 }

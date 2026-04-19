@@ -21,7 +21,7 @@ public class _01ArrayIntro {
          */
 
         // array declaration
-        double[] myList;
+        // double[] myList;
 
     }
 }
