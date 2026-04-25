@@ -30,6 +30,6 @@ class circle{
     
     */
     void area(int radius){
-        System.out.println(Math.PI * Math.sqrt(radius));
+        System.out.println(Math.PI * radius * radius);
     }
 }
