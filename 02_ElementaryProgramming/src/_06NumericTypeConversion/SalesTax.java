@@ -12,5 +12,6 @@ public class SalesTax {
         double tax = purchaseAmount * 0.06;
         System.out.println("Sales tax is $"+(int) tax);
 
+        scanner.close();
     }
 }
