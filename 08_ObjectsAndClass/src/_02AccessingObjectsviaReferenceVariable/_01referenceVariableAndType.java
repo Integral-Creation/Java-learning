@@ -2,7 +2,7 @@ public class _01referenceVariableAndType {
     /*
     Objects are accessed via the object's reference variables, which contain reference to the objects.
     syntax:
-    Classname objectRefVar;
+    ClassName objectRefVar;
     or
     ClassName objectRefVar = new ClassName();
     */

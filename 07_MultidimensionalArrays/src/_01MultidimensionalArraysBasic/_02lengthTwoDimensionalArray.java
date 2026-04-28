@@ -3,7 +3,7 @@ package _01MultidimensionalArraysBasic;
 public class _02lengthTwoDimensionalArray {
     public static void main(String[] args) {
         /*
-        Two-dimensional Array is an array of arrays, so it's length is depend upon what we are referring to. 
+        Two-dimensional Array is an array of arrays, so it's length is depended upon what we are referring to.
         */
         int[][] arr = {
             {1,2,3},

@@ -3,7 +3,7 @@ package _01MultidimensionalArraysBasic;
 public class _03jaggedArray {
     public static void main(String[] args) {
         /*
-        Jagged array is a multidimesional array in which each row an have a different no of columns.
+        Jagged array is a multidimensional array in which each row an have a different no of columns.
         */
        int[][] triArr = {
         {1,2,3,4,5},

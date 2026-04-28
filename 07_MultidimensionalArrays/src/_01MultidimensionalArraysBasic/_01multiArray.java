@@ -3,7 +3,7 @@ package _01MultidimensionalArraysBasic;
 public class _01multiArray {
     /*
     Multidimensional Arrays 
-        multi-dimensional arrays in java is an array of arrays that allows data to stored in a tabular form such as row or column. Its is commonly used to represent matrics, grid, and table in a program.
+        multi-dimensional arrays in java is an array of arrays that allows data to store in a tabular form such as row or column. Its is commonly used to represent matrics, grid, and table in a program.
 
     Declaring 2D Arrays
         syntax:

@@ -55,11 +55,11 @@ public class _01staticVariable {
         System.out.println("circle1 radius (" + circle2.radius + ") and the number of the circle objects (" + circleWithStaticMembers.numberOfObjects + ")");
         
         /*
-        In this program circleWithStaticMembers class is created and static variable numberOfObjects is created to track the how many circle objects are created.
+        In this program circleWithStaticMembers class is created and static variable numberOfObjects is created to track how many circle objects are created.
         Each time a new objects is instantiated using either a constructor, static counter is incremented.
 
         In main method, the program creates a two circles objects and shows how the static variable is shared among all instances by displaying the updated count 
-        after each objects is created. It is also modifies the radius of one objects to demonstrate that instances variable are separate, while the static variable\
+        after each object is created. It is also modifies the radius of one objects to demonstrate that instances variable are separate, while the static variable\
         remains common to all objects.
         */
     }

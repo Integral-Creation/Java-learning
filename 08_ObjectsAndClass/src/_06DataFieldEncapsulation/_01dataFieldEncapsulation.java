@@ -12,13 +12,13 @@ public class _01dataFieldEncapsulation {
                 or
                 circleWithStaticMembers.numberOfObjects = 10;
         
-        this is not a good practice- for two reasons:
+        this is not a good practice-for two reasons:
             • data may be tempered with.
-                ex- numberOfObjects is to count the number of objects created, but it may be set to a arbitary
+                ex- numberOfObjects is to count the number of objects created, but it may be set to an arbitrary
                 value
             • the class become difficult to maintain and vulnerable to bugs.
                 ex- suppose we want to modify the circleWithStaticMembers class to ensure that the radius is 
-                non negative after other program have already used the class. You have to change not only the
+                non-negative after other program have already used the class. You have to change not only the
                 circleWithStaticMembers class but also the programs that use it, because the clients may have modified
                 the radius directly (e.g. circle1.radius = -1)
     
@@ -26,7 +26,7 @@ public class _01dataFieldEncapsulation {
     modifies. this is known as Data fields encapsulation.
     
     A private data fields cannot be accessed by an objects from outside the class that defines the private field.
-    however, a client often needs to retrives and modify a data field. to make private field accessible, provide 
+    however, a client often needs to retries and modify a data field. to make private field accessible, provide
     a get method to return its value. to enable a private data field accessible, provide a set method to set a new value.
 
     • get method is referred to as a getter (accessor)
