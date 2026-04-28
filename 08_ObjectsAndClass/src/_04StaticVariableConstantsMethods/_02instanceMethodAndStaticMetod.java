@@ -8,11 +8,11 @@ package _04StaticVariableConstantsMethods;
         it can invoke a static method or access an instance data field. However a static method cannot
         invoke an instance method or access an instance data field.
 
-                         |------>invoke instance method                            |------>invoke instance method
-                         |------>access instance data field                        |------>access instance data field
+                         |------>✔️invoke instance method                            |------>❌invoke instance method
+                         |------>✔️access instance data field                        |------>❌access instance data field
     instance method -----|                                      static method -----|
-                         |------>invoke static method                              |------>invoke static method
-                         |------>access static data field                          |------>access static data field
+                         |------>✔️invoke static method                              |------>✔️invoke static method
+                         |------>✔️access static data field                          |------>✔️access static data field
 */
 
 /* example code */
