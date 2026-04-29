@@ -63,7 +63,7 @@ public class _01dataFieldEncapsulation {
             numberOfObjects++;
         }
 
-        // Construct a circle with specidied radius
+        // Construct a circle with specified radius
         public CircleWithPrivateDataFields(double newRadius){
             radius = newRadius;
             numberOfObjects++;
