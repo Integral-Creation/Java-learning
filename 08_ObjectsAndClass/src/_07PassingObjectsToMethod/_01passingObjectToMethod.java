@@ -34,9 +34,9 @@ class car{
     public void setSpeed(int speed){
         if(speed >= 0){
             this.speed = speed;
-        }else[
+        }else{
             System.out.println("Speed can't be negative!");
-        ]
+        }
     }
     public void setBrand(String brand){
         this.brand = brand;
@@ -51,6 +51,17 @@ public class _01passingObjectToMethod {
         System.out.println(car01.getColor());
         System.out.println(car01.getSpeed());
 
+        // MOdifying private fields via setter
+        car01.setBrand("Mclaren");
+        car01.setColor("Charcaol gray");
+        car01.setSpeed(220);
+
     }
-    
+
+    // passing object with private fields to a method
+    public static void printCarInfo(car c){
+        System.out.println("Brand: " + c.getBrand());
+        System.out.println("Color: " + c.getColor());
+        System.out.println("Speed: " + c.getSpeed());
+    } 
 }
