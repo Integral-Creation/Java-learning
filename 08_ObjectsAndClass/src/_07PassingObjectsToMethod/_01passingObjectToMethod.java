@@ -51,9 +51,9 @@ public class _01passingObjectToMethod {
         System.out.println(car01.getColor());
         System.out.println(car01.getSpeed());
 
-        // MOdifying private fields via setter
+        // MModifying private fields via setter
         car01.setBrand("Mclaren");
-        car01.setColor("Charcaol gray");
+        car01.setColor("Charcoal gray");
         car01.setSpeed(220);
 
     }
