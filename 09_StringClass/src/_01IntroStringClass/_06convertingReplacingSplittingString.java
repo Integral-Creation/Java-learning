@@ -9,12 +9,16 @@ public class _06convertingReplacingSplittingString {
        
         // • toLowerCase() : String -> convert the string to lower case
         System.out.println(str.toLowerCase()); // welcome to java
+
         // • toUpperCase() : String -> convert the string to Upper case
         System.out.println(str.toUpperCase()); // WELCOME TO JAVA
+
         // • trim() : string -> returns a new string with all white space character trimmed both side
         System.out.println(str.trim());
+
         // • replace(oldChar: char, newChar: char) : String -> returns the string that replace the first matching character in the string.
         System.out.println(str.replace("java", "Tesla")); // Welcome to Tesla
+        
         // • replaceAll(oldChar: char, newChar: char) : String -> returns the string that replace the all matching character in the string.
         System.out.println(str.replaceAll("e", "E")); // WElcomE to java
        
