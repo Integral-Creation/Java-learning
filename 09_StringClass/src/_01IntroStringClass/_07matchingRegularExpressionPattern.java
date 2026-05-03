@@ -42,8 +42,8 @@ public class _07matchingRegularExpressionPattern {
                 • (?!...) -> negative lookahead
                 • (?<=...) -> positive lookbehind
                 • (?<!...) -> negative lookbehind
-            // 8. flag Modifires
-                • (?!) -> case insensitive
+            // 8. flag Modifiers
+                • (?!) -> case-insensitive
                 • (?m) -> multi-line
         */
         /*
@@ -65,8 +65,8 @@ public class _07matchingRegularExpressionPattern {
         System.out.println(s); // aNNNbNNNNNNc
 
         String[] token = "Java,C?C#,C++".split("[.,:;?]");
-        for(int i = 0; i < token.length; i++ ){
-            System.out.println(token[i]);
+        for(String string : token) {
+            System.out.println(string);
         }
             /*
                 Java
