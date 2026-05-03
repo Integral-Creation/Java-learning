@@ -7,28 +7,28 @@ public class _08findingCharacterOrSubstring {
         */
 
         String str = "welcome";
-        // • indexof(ch: char) : int -> returns the index of first occurrance of ch in the String
+        // • indexof(ch: char) : int -> returns the index of first occurrence of ch in the String
         System.out.println(str.indexOf('w')); // 0
 
-        // • indexof(ch: char, fromIndex: int) : int -> returns index of first occurrance of ch after fromIndex in a string
+        // • indexof(ch: char, fromIndex: int) : int -> returns index of first occurrence of ch after fromIndex in a string
         System.out.println(str.indexOf('e', 3)); // 6
 
-        // • indexof(str: String) : int -> returns the index of first occurrance of str(String) in the String
+        // • indexof(str: String) : int -> returns the index of first occurrence of str(String) in the String
         System.out.println(str.indexOf("come")); // 3
 
-        // • indexof(str: String, fromIndex: int) : int -> returns index of first occurrance of str(String) after fromIndex in a string
+        // • indexof(str: String, fromIndex: int) : int -> returns index of first occurrence of str(String) after fromIndex in a string
         System.out.println(str.indexOf("come", 5)); // -1
 
-        // • lastIndexOf(ch: char) : int -> returns the last occurrance of the ch in a string
+        // • lastIndexOf(ch: char) : int -> returns the last occurrence of the ch in a string
         System.out.println(str.lastIndexOf('o')); // 4
 
-        // • lastIndexOf(ch: char, fromIndex: int) : int -> returns index of first occurrance of ch after fromIndex in a string
+        // • lastIndexOf(ch: char, fromIndex: int) : int -> returns index of first occurrence of ch after fromIndex in a string
         System.out.println(str.lastIndexOf('l',3)); // 2 
 
-        // • lastIndexof(str: String) : int -> returns the last occurrance of the ch in a string
+        // • lastIndexof(str: String) : int -> returns the last occurrence of the ch in a string
         System.out.println(str.lastIndexOf("come")); // 3
         
-        // • lastIndexof(str: String, fromIndex: int) : int -> returns index of first occurrance of ch after fromIndex in a string
+        // • lastIndexof(str: String, fromIndex: int) : int -> returns index of first occurrence of ch after fromIndex in a string
         System.out.println(str.lastIndexOf("wel",0)); // 0
     }
 }
