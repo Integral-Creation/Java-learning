@@ -1,0 +1,24 @@
+#StringBuilder
+    • In java, StringBuilder class provides a mutable sequence of characters.
+    • Used for append, insert new content in StringBuilder objects.
+    • Unlike string which is immutable, StringBuilder allows modification of characters sequence without creating new objects
+    • StringBuilder is not synchronized, thus it is used for single threaded application
+    
+    syntax:
+    StringBuilder sb = new StringBuilder("initialString");
+
+    + StringBuilder class has three constructor:
+        • StringBuilder() -> Construct an empty string builder with capacity 16
+        • StringBuilder(capacity : int) -> Construct an empty string builder with specified capacity 
+        • StringBuilder(s: string) -> Construct a string builder with specified string
+
+
+    
+#StringBuffer
+    • StingBuffer class in java represent a sequence of characters that can be modified. It is also a mutable sequence of characters.
+    • Used for append, insert new content in StringBuffer objects.
+    • Unlike String, we can modify the content of a StringBuffer without creating a new objects.
+    • All the method of StingBuffer are synchronized, making it safe to multithreaded environments.
+
+    syntax:
+        StingBuffer s = new StringBuffer();
