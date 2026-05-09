@@ -15,7 +15,7 @@ class circle{
         return this.radius * this.radius * Math.PI;
     }
 }
-public class _02thisReference {
+public class _01thisReference {
     public static void main(String[] args) {
         circle c01 = new circle(5);
 
