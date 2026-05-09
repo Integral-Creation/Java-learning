@@ -1,4 +1,4 @@
-package _02TheScopeOfVariables;
+package _03ThisReference;
 
 /*
 this keyword refers to the object itself. It can also be used inside the constructor to invoke another constructor of the same class
