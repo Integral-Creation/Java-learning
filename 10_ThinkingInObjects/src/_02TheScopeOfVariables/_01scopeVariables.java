@@ -23,6 +23,11 @@ class f{
         System.out.println("x = " + x);
         System.out.println("y = " + y);
     }
+
+    void display(){
+        System.out.println("x: "+x);
+        System.out.println("y: "+y);
+    }
 }
 
 public class _01scopeVariables {
