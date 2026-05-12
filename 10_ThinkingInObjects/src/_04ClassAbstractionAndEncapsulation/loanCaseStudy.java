@@ -1,5 +1,5 @@
 package _04ClassAbstractionAndEncapsulation;
-
+import java.util.Scanner;
 /*
 
 -----------------------------------------
@@ -29,17 +29,19 @@ package _04ClassAbstractionAndEncapsulation;
 | + getTotalPayment() : double         |
 -----------------------------------------
 */
-public class loan {
+
+class loan{
     private double annualInterestRate;
     private int numberOfYears;
     private double loanAmount;
     private java.util.Date loanDate;
 
-    // default constructor 
+    // Default Constructor
     public loan(){
         this(2.5, 1, 1000);
     }
 
+    // Parameterize Constructor
     public loan(double annualInterestRate, int numberOfYears, double loanAmount){
         this.annualInterestRate = annualInterestRate;
         this.numberOfYears = numberOfYears;
@@ -47,45 +49,73 @@ public class loan {
         loanDate = new java.util.Date();
     }
 
-    // return annualIntersetRate
-    public double annualInterestRate(){
+    // return annualInterestRate
+    public double getAnnualInterestRate(){
         return annualInterestRate;
     }
 
-    // Set a new annualIntersetRate
+    // Set a new annualInterestRate
     public void setAnnualInterestRate(double annualInterestRate){
         this.annualInterestRate = annualInterestRate;
     }
 
-    // return noOfYears
+    // return numberOfYears
     public int getNumberOfYears(){
         return numberOfYears;
     }
 
-    // set noOfYears
-    public int setNumberOfYears(int numberOfYears){
+    // Set a new numberOfYears
+    public void setNumberOfYears(int numberOfYears){
         this.numberOfYears = numberOfYears;
     }
 
-    // return loanAmount
+    // return laonAmount
     public double getLoanAmount(){
         return loanAmount;
     }
 
-    // set a new laonAmount
+    // Set a new loanAmount
     public void setLoanAmount(double loanAmount){
         this.loanAmount = loanAmount;
     }
 
-    // mountly payment
+    // find monthly payment
     public double getMonthlyPayment(){
-        double mountlyIntersetRate = annualInterestRate / 1200;
-        double mountlyPayment = loanAmount * mountlyIntersetRate / (1 - (1 / Math.pow(1 + mountlyIntersetRate, numberOfYears * 12)));
-        return mountlyPayment;
+        double monthlyIntersetRate = annualInterestRate / 1200;
+        double monthlyPayment = loanAmount * monthlyIntersetRate / (1 - (1 / Math.pow(1 + monthlyIntersetRate, numberOfYears * 12)));
+
+        return monthlyPayment;
+    }
+    
+    // find total payment
+    public double getTotalPayment(){
+        double totalPayment = getMonthlyPayment() * numberOfYears * 12;
+        return totalPayment;
     }
 
+    // return loan date
+    public java.util.Date getLoanDate(){
+        return loanDate;
+    }
+}
 
 
+public class loanCaseStudy {
+    public static void main(String[] args) {
+        Scanner scanner = new  Scanner(System.in);
+        
+        System.out.println("Enter annual interset rate, for example, 8.25: ");
+        double annualInterstRate = scanner.nextDouble();
 
-    
+        System.out.println("Enter number of years as an integer: ");
+        int numberOfYears = scanner.nextInt();
+
+        System.out.println("Enter loan for example, 120000.95: ");
+        double loanAmount = scanner.nextDouble();
+
+        loan laon01 = new loan(annualInterstRate, numberOfYears, loanAmount);
+
+        System.out.printf("the laon was created on %s\n" + "the monthly payment is %.2f\n the total payment is %.2f\n", laon01.getLoanDate().toString(), laon01.getMonthlyPayment(), laon01.getTotalPayment());
+        scanner.close();
+    }
 }
