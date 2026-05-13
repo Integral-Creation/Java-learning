@@ -35,7 +35,7 @@ class Stack{
     }
 
     public int peek(){
-        return size - 1;
+        return elements[size - 1];
     }
 
     public void push(int value){
@@ -44,8 +44,28 @@ class Stack{
             System.arraycopy(elements, 0, temp, 0, elements.length);
             elements = temp;
         }
+
+        elements[size++] = value;
+    }
+
+    public int pop(){
+        return elements[--size];
+    }
+
+    public int getSize(){
+        return size;
     }
 }
 public class testStacks {
-    
+    public static void main(String[] args) {
+        Stack stack = new Stack();
+
+        for(int i = 0; i < 10; i++){
+            stack.push(i);
+        }
+
+        while(!stack.empty()){
+            System.out.println(stack.pop() + " ");
+        }
+    }
 }
