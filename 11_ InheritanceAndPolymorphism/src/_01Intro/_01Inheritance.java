@@ -5,6 +5,26 @@ Inheritance in java is core OOPs concept that allows a class to acquire properti
 It is an important and powerful features for reusing same code.
 */
 
+/*
+                    -------------------
+                    |     Animal      |
+                    -------------------
+                    |                 |
+                    -------------------
+                    | + sound(): void |
+                    -------------------
+                             ▲
+               --------------|--------------
+               |                             |
+     -------------------         -------------------
+     |       Dog       |         |      Neko       |
+     -------------------         -------------------
+     |                 |         |                 |
+     -------------------         -------------------
+     | + sound(): void |         | + sound(): void |
+     -------------------         -------------------
+*/
+
 class Animal{ // parents
     void sound(){
         System.out.println("Animal makes a sound");
