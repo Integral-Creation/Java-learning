@@ -1,4 +1,4 @@
-package _01Intro;
+package _02SuperClassAndSubclass;
 /*
 Inheritance enables us to define a general class(e.g. superclass) and later extend it to more specicalized class(e.g. subclasses).
     • A subclass can reuse the fields and methods of the parents class without rewrinting the code.
