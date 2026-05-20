@@ -6,21 +6,44 @@ It can also be used to access or invoke the constructor of Superclass or parent 
 
     Syntax:
         super() or super(parameter)
-
-    In previous Geometric Program:
-            public Circle(String color, boolean filled, double radius){
-                    this.radius = radius;
-                    setColor(color);
-                    setFilled(filled);
-                }
-            
-    It can be written as using super keyword:
-            public Circle(String color, boolean filled, double radius){
-                    this.radius = radius;
-                    super(color, radius);
-                }
-
 */
+
+class Pet{
+    String name;
+
+    Pet(){
+        System.out.println("Animal constructor");
+    }
+
+    Pet(String name){
+        this.name = name;
+        System.out.println("Pet's name: " + name);
+    }
+}
+
+class Neko extends Pet{
+    Neko(){
+        super(); // calling superclass constructor (here, Pet)
+        System.out.println("Neko Constructor no args constructor");
+    }
+
+    Neko(String name){
+        super(name); // calling parameterize super constructor
+        System.out.println("Neko Parameterize constructor");
+    }
+}
 public class _01superKeyword {
-    
+    public static void main(String[] args) {
+        Neko neko = new Neko();
+        Neko neko2 = new Neko("Mittens");
+        /*
+        Animal constructor
+        Neko Constructor no args constructor
+        Pet's name: Mittens
+        Neko Parameterize constructor
+        */
+
+        neko.name = "Melo";
+        System.out.println(neko2.name);
+    }
 }
