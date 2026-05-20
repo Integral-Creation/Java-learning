@@ -1,14 +1,14 @@
 package _02SuperClassAndSubclass;
 /*
-Inheritance enables us to define a general class(e.g. superclass) and later extend it to more specicalized class(e.g. subclasses).
-    • A subclass can reuse the fields and methods of the parents class without rewrinting the code.
+Inheritance enables us to define a general class(e.g. superclass) and later extend it to more specialized class(e.g. subclasses).
+    • A subclass can reuse the fields and methods of the parents class without rewriting the code.
     • A subclass can add its own fields and methods or modify existing ones to extended functionality.
 */
 
 /*
-Consider geometic objects. suppose we want to create a subclass named circle and rectangle.
+Consider geometric objects. suppose we want to create a subclass named circle and rectangle.
 Geometric objects have a common properties and behaviors.
-thus a genearal class GeometricObjects can be used to models all geometric objects(i.e circle and rectangle).
+thus a general class GeometricObjects can be used to models all geometric objects(i.e circle and rectangle).
 */
 
 /*
@@ -197,7 +197,7 @@ public class _01superclassesAndSubclasses {
         System.out.println("The color is: " + circle01.getColor());
         System.out.println("The radius is: " + circle01.getRadius());
         System.out.println("The area is: " + circle01.getArea());
-        System.out.println("The diamerter is: " + circle01.getDiameter());
+        System.out.println("The diameter is: " + circle01.getDiameter());
 
         Rectangle rectangle01 = new Rectangle(2,4);
         System.out.println("\n Rectangle: " + rectangle01.toString());
