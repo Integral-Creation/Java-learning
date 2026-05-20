@@ -22,7 +22,7 @@ class Child extends Parent{
     }
 }
 
-public class _03callingSuperclassMethod {
+public class _02callingSuperclassMethod {
     public static void main(String[] args) {
         Child child = new Child();
         child.display();
