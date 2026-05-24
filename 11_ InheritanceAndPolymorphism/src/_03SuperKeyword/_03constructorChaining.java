@@ -48,7 +48,7 @@ class Employee extends Person{
         System.out.println(s);
     }
 }
-class Faculty extends Person{
+class Faculty extends Employee{
     public Faculty() {
         System.out.println("(4) Performs Faculty's tasks");
     }
