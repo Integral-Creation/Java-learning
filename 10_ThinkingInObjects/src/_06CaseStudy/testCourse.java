@@ -33,7 +33,7 @@ class Course{
         numberOfStudents++;
     }
 
-    public String[] getStudnet(){
+    public String[] getStudent(){
         return students;
     }
 
@@ -55,15 +55,15 @@ public class testCourse {
 
         System.out.println("number of students in course1 : " + course1.getNumberOfStudents());
         
-        String[] students = course1.getStudnet();
+        String[] students = course1.getStudent();
         for(int i = 0; i < course1.getNumberOfStudents() ; i++){
             System.out.println(students[i] + " ");
         }
         
         System.out.println();
-        String[] studentsForcourse2 = course2.getStudnet();
+        String[] studentsForCourse2 = course2.getStudent();
         for(int i = 0; i < course2.getNumberOfStudents() ; i++){
-            System.out.println(studentsForcourse2[i] + " ");
+            System.out.println(studentsForCourse2[i] + " ");
         }
         System.out.println("number of students in course2 : " + course2.getNumberOfStudents());
         
