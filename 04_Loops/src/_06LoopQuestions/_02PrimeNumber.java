@@ -8,8 +8,7 @@ public class _02PrimeNumber {
         int value = scanner.nextInt();
         int isPrime = 1;
         if(value <= 0){
-            System.out.println("not prime");
-            return;
+            isPrime = 0;
         } else{
             for(int i = 2; i <= value / 2; i++){
                 if(value % i == 0){
@@ -24,5 +23,6 @@ public class _02PrimeNumber {
         } else{
             System.out.println("Not prime");
         }
+        scanner.close();
     }
 }

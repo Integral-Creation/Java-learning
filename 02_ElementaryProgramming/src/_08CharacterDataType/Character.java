@@ -9,6 +9,8 @@ public class Character {
         char letter = 'A';
         char numChar = '4';
 
+        System.out.println(letter);
+        System.out.println(numChar);
         /*
         String must be enclosed in a quotation marks (" ")
         Character must be enclosed in a single quotation (' ')

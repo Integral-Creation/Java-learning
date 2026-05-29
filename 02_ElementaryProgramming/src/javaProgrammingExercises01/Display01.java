@@ -1,6 +1,6 @@
 package javaProgrammingExercises01;
 
-public class Dispaly01 {
+public class Display01 {
     public static void main(String[] args){
         for(int i = 0;i<4;i++){
             System.out.println("welcome to Java programming");

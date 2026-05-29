@@ -33,5 +33,6 @@ public class _01IfStatement {
         else{
             System.out.println("radius can't be less than zero");
         }
+        scanner.close();
     }
 }

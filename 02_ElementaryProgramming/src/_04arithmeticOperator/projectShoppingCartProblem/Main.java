@@ -1,10 +1,10 @@
-package _04arithematicOperator.projectShoppingCartProblem;
+package _04arithmeticOperator.projectShoppingCartProblem;
 
 import java.util.Scanner;
 public class Main{
     public static void main(){
         // shopping cart problem
-//        1:02:48
+        //        1:02:48
 
     }
 }

@@ -12,5 +12,6 @@ public class _01Ternary {
         int num2 = 6;
 
         int max = (num1 > num2)? num1 : num2;
+        System.out.println(max);
     }
 }

@@ -47,7 +47,7 @@ public class _03stringComparison {
         String str4 = "NikolaTesla";
         System.out.println(str4.startsWith("Nikola"));
         // • endWith(suffix: String) : boolean
-        System.out.println(str4.endsWith("esla"));
+        System.out.println(str4.endsWith("Tesla"));
 
     }
 }

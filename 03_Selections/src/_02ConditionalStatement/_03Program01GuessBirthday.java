@@ -82,5 +82,6 @@ public class _03Program01GuessBirthday {
             day += 16;
         }
         System.out.println("\n your birth date is "+day+"!");
+        scanner.close();
     }
 }

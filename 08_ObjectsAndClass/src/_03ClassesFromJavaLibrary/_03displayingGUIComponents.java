@@ -39,7 +39,7 @@ public class _03displayingGUIComponents {
         JComboBox<String> jComboBoxColor = new JComboBox<>(new String[]{"Freshman", "Sophomore", "Junior", "Senior"});
 
 
-        // create a panal to group components
+        // create a panel to group components
         JPanel panel = new JPanel();
         panel.add(jbtOK);
         panel.add(jbtCancel);

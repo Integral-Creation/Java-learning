@@ -23,6 +23,6 @@ public class _01DoWhileLoop {
         }while (data != 0);
 
         System.out.println(sum);
-
+        scanner.close();
     }
 }

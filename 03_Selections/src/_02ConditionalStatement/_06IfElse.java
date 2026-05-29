@@ -1,7 +1,5 @@
 package _02ConditionalStatement;
 
-import javax.swing.*;
-
 public class _06IfElse {
     public static void main(String[] args) {
         int score = 95;

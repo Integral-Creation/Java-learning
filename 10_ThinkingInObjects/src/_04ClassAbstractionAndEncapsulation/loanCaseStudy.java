@@ -69,7 +69,7 @@ class loan{
         this.numberOfYears = numberOfYears;
     }
 
-    // return laonAmount
+    // return loanAmount
     public double getLoanAmount(){
         return loanAmount;
     }
@@ -81,8 +81,8 @@ class loan{
 
     // find monthly payment
     public double getMonthlyPayment(){
-        double monthlyIntersetRate = annualInterestRate / 1200;
-        double monthlyPayment = loanAmount * monthlyIntersetRate / (1 - (1 / Math.pow(1 + monthlyIntersetRate, numberOfYears * 12)));
+        double monthlyInterestRate = annualInterestRate / 1200;
+        double monthlyPayment = loanAmount * monthlyInterestRate / (1 - (1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12)));
 
         return monthlyPayment;
     }
@@ -104,8 +104,8 @@ public class loanCaseStudy {
     public static void main(String[] args) {
         Scanner scanner = new  Scanner(System.in);
         
-        System.out.println("Enter annual interset rate, for example, 8.25: ");
-        double annualInterstRate = scanner.nextDouble();
+        System.out.println("Enter annual interest rate, for example, 8.25: ");
+        double annualInterestRate = scanner.nextDouble();
 
         System.out.println("Enter number of years as an integer: ");
         int numberOfYears = scanner.nextInt();
@@ -113,9 +113,9 @@ public class loanCaseStudy {
         System.out.println("Enter loan for example, 120000.95: ");
         double loanAmount = scanner.nextDouble();
 
-        loan laon01 = new loan(annualInterstRate, numberOfYears, loanAmount);
+        loan loan01 = new loan(annualInterestRate, numberOfYears, loanAmount);
 
-        System.out.printf("the laon was created on %s\n" + "the monthly payment is %.2f\n the total payment is %.2f\n", laon01.getLoanDate().toString(), laon01.getMonthlyPayment(), laon01.getTotalPayment());
+        System.out.printf("the loan was created on %s\n" + "the monthly payment is %.2f\n the total payment is %.2f\n", loan01.getLoanDate().toString(), loan01.getMonthlyPayment(), loan01.getTotalPayment());
         scanner.close();
     }
 }

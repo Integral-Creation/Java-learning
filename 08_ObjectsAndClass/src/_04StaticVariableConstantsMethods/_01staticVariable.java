@@ -34,7 +34,7 @@ class circleWithStaticMembers{
 public class _01staticVariable {
     public static void main(String[] args) {
         System.out.println("Before creating objects");
-        System.out.println("The number of cricle objects is " + circleWithStaticMembers.numberOfObjects);
+        System.out.println("The number of circle objects is " + circleWithStaticMembers.numberOfObjects);
 
         // create a circle1
         circleWithStaticMembers circle1 = new circleWithStaticMembers();

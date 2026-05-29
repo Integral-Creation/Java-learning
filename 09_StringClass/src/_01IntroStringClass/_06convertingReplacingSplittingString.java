@@ -22,7 +22,7 @@ public class _06convertingReplacingSplittingString {
         // • replaceAll(oldChar: char, newChar: char) : String -> returns the string that replace the all matching character in the string.
         System.out.println(str.replaceAll("e", "E")); // WElcomE to java
        
-        // • split(delimeter: String) : String[] -> retruns an arrays of string consisting of the substring split by the delimeter
+        // • split(delimiter: String) : String[] -> returns an arrays of string consisting of the substring split by the delimiter
         String str1 = "Java#Git#EnderDragon";
         String[] tokens = str1.split("#");
        

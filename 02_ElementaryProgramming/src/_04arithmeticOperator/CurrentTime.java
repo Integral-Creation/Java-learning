@@ -1,13 +1,13 @@
-package _04arithematicOperator;
+package _04arithmeticOperator;
 
 import java.time.LocalTime;
 
 public class CurrentTime {
     public static void main(String[] args) {
 
-        long totalMilliSec = System.currentTimeMillis();
+        long totalMillSec = System.currentTimeMillis();
 
-        long totalSec = totalMilliSec / 1000;
+        long totalSec = totalMillSec / 1000;
         long currentSec = totalSec % 60;
 
         long totalMin = totalSec / 60;

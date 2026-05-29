@@ -28,7 +28,7 @@ public class _01checkingPalindromes {
         if(isPalindrome(str)){
             System.out.println(str + " is a palindrome");
         }else{
-            System.out.println(str + " is not a palidrome");
+            System.out.println(str + " is not a palindrome");
         }
         
         scanner.close();

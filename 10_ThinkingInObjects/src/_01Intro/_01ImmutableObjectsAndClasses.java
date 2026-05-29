@@ -2,7 +2,7 @@ package _01Intro;
 
 public class _01ImmutableObjectsAndClasses {
     /*
-    Immutable class objects are those whose state cannot be modified after initialization. Once created, the values and state remains unchanged throught its scope.
+    Immutable class objects are those whose state cannot be modified after initialization. Once created, the values and state remains unchanged thought its scope.
     
     creating Immutable class in java:
         • All data fields must be private.

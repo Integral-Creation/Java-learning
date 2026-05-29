@@ -1,4 +1,4 @@
-package ProgrammingExcercise;
+package ProgrammingExercise;
 
 import javax.swing.*;
 import java.util.Scanner;
@@ -13,5 +13,6 @@ public class Problem01 {
             sum += i;
         }
         JOptionPane.showMessageDialog(null,sum);
+        scanner.close();
     }
 }

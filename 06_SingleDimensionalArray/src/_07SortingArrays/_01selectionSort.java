@@ -2,7 +2,7 @@ package _07SortingArrays;
 
 public class _01selectionSort {
     /*
-    Selecton sort
+    Selection sort
     Selection sort is a comparison based sorting algorithm. It sort by repeatedly selecting the smallest element from
     unsorted array and swap it with the first element of the unsorted element.
 

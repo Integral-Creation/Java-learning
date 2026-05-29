@@ -12,17 +12,17 @@ public class IssuesInput {
         // so get rid of the "\n" new line character use---> scanner.nextLine();
         scanner.nextLine(); // clear the input buffer
 
-        System.out.print("Enter your favourite color: ");
+        System.out.print("Enter your favorite color: ");
         String color = scanner.nextLine();
 
 
         System.out.println("your age is "+ age);
-        System.out.println("Your favourite color is "+ color);
+        System.out.println("Your favorite color is "+ color);
         /*
         output:
         enter your age: 20 <-------when you hit enter a new line "\n" character is act as the input for the next scanner or it's in the input buffer
-        Enter your favourite color: your age is 20
-        Your favourite color is
+        Enter your favorite color: your age is 20
+        Your favorite color is
          */
         scanner.close();
     }

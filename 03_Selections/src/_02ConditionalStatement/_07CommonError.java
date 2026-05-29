@@ -10,12 +10,12 @@ public class _07CommonError {
             wrong semicolon ';'
                 if(radius);  //logic error
                 if(radius){ empty block }  //logic error:(
-        error 3: reductant testing of boolean value
+        error 3: redundant testing of boolean value
             to test boolean variable is true or false in a condition,
-            it is reductant to use the equality operator like the code
+            it is redundant to use the equality operator like the code
 
                 boolean even = true;
-                if(even == true){ // reductant
+                if(even == true){ // redundant
                     System.out.print("is even");
                 }
                     ||

@@ -1,11 +1,11 @@
-package _05VariableLenghtArgumentLists;
+package _05VariableLengthArgumentLists;
 
 public class _01varArgsDemo {
     /*
-    Variable-lenghts argument in java allows method to accept multiple number of argument of same data type,
-    using syntax ellipis(...)
+    Variable-lengths argument in java allows method to accept multiple number of argument of same data type,
+    using syntax ellipsis(...)
         Syntax:
-            dataTypeName... paramerterName
+            dataTypeName... parameterName
 
     java treats varargs as an array.
     */

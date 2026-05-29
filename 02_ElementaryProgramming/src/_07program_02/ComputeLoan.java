@@ -18,11 +18,11 @@ public class ComputeLoan {
         System.out.print("Enter the loan amount");
         double amountLoan = scanner.nextDouble();
 
-//        computing monthly interset rate
-        double monthlyInterset = annualInterest / 1200;
+//        computing monthly interest rate
+        double monthlyInterest = annualInterest / 1200;
 
 //        calculate payment
-        double monthlyPayment = (amountLoan * monthlyInterset)/(1 - 1 / (Math.pow( 1 + monthlyInterset, numberOfYear * 12)));
+        double monthlyPayment = (amountLoan * monthlyInterest)/(1 - 1 / (Math.pow( 1 + monthlyInterest, numberOfYear * 12)));
         double totalPayment = monthlyPayment * numberOfYear * 12;
 
         System.out.println("Monthly payment = $"+monthlyPayment);

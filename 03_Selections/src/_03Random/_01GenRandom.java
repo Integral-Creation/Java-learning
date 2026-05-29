@@ -24,5 +24,6 @@ public class _01GenRandom {
         System.out.println("what is "+num1+" + "+ num2 + " ?");
         int answer = scanner.nextInt();
         System.out.println(num1 + " + " + num2 + " = " + answer + " is " + (num1 + num2 == answer));
+        scanner.close();
     }
 }

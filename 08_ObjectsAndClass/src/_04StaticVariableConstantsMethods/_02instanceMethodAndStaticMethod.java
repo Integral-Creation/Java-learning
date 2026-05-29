@@ -16,7 +16,7 @@ package _04StaticVariableConstantsMethods;
 */
 
 /* example code */
-public class _02instanceMethodAndStaticMetod {
+public class _02instanceMethodAndStaticMethod {
     int i = 5;
     static int k = 2;
 
@@ -40,7 +40,7 @@ public class _02instanceMethodAndStaticMetod {
     public static void main(String[] args) {
         // int j = i; // It is wrong because i is an instance variable.
         /* Correct code */
-        _02instanceMethodAndStaticMetod a = new _02instanceMethodAndStaticMetod();
+        _02instanceMethodAndStaticMethod a = new _02instanceMethodAndStaticMethod();
 
         int j = a.i; // a.i can access the object's instance variable.
         System.out.println(j);

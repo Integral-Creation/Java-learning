@@ -1,4 +1,4 @@
-package ProgrammingExcercise;
+package ProgrammingExercise;
 
 import java.util.Scanner;
 
@@ -13,5 +13,6 @@ public class Problem04 {
         for(int i = lowerBound ; i <= upperBound; i++){
             System.out.print(i+" ");
         }
+        scanner.close();
     }
 }

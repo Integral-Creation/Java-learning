@@ -15,7 +15,7 @@ public class _02ObtainingPropertiesString {
         • trimToSize(): void
         */
 
-        /*tostring()*/
+        /*toString()*/
         StringBuilder sb = new StringBuilder("hello");
         String str = sb.toString();
         System.out.println(str); // hello

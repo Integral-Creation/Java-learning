@@ -28,7 +28,7 @@ public class _01arrayOfObjects {
         // creating array of objects
         Student[] students = {
             new Student("Tesla", 01),
-            new Student("Enstein", 02)
+            new Student("Einstein", 02)
         };
         
         for(int i = 0; i < students.length; i++){

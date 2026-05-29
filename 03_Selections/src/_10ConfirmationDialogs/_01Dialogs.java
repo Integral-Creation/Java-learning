@@ -1,7 +1,6 @@
 package _10ConfirmationDialogs;
 
 import javax.swing.JOptionPane;
-import java.util.Scanner;
 
 public class _01Dialogs {
     public static void main(String[] args) {

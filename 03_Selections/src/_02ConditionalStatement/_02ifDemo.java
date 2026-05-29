@@ -15,5 +15,6 @@ public class _02ifDemo {
         if(num % 2 ==0){
             System.out.println("Hi even");
         }
+        scanner.close();
     }
 }

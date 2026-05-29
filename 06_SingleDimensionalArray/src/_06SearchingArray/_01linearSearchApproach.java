@@ -2,7 +2,7 @@ package _06SearchingArray;
 
 public class _01linearSearchApproach {
     /*
-    linear search approach compares the key element squentially with each element in the arrays.
+    linear search approach compares the key element sequential with each element in the arrays.
     It continues to do so until the element is found or the array is exhausted without a match being found.
     If match is made it returns an index of the element.
     */

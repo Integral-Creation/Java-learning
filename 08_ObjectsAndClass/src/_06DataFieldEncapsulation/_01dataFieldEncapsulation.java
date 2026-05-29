@@ -2,7 +2,7 @@ package _06DataFieldEncapsulation;
 
 public class _01dataFieldEncapsulation {
     /*
-    Data fiels encapsulation makes data fields private data and makes the class easy to maintain.
+    Data fields encapsulation makes data fields private data and makes the class easy to maintain.
 
     taking example: 08.04._01staticVariable.java
         The data fields radius and numberOfObjects in the circleWithStaticMembers class in 

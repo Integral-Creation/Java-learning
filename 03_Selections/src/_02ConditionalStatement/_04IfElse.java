@@ -26,5 +26,6 @@ public class _04IfElse {
         else{
             System.out.println("odd");
         }
+        scanner.close();
     }
 }

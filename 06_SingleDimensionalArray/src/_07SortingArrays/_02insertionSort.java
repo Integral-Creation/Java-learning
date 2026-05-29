@@ -45,7 +45,7 @@ public class _02insertionSort {
     public static void insertionSort(int[] list){
         for(int i = 1; i < list.length; i++){
             int key = list[i]; // pick the element
-            int j = i - 1; // comparining the element to the left
+            int j = i - 1; // comparing the element to the left
 
             for( ; j >= 0 && list[j] > key; j--){
                 list[j + 1] = list[j]; // shift the larger element to the right

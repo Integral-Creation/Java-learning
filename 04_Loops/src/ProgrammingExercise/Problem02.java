@@ -1,4 +1,4 @@
-package ProgrammingExcercise;
+package ProgrammingExercise;
 
 import java.util.Scanner;
 
@@ -12,5 +12,6 @@ public class Problem02 {
             System.out.print("enter a number: ");
             value = scanner.nextInt();
         }
+        scanner.close();
     }
 }

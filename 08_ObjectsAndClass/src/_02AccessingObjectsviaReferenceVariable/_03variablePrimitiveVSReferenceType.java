@@ -46,12 +46,12 @@ public class _03variablePrimitiveVSReferenceType {
         System.out.println(c2.radius);
         c1 = c2;
 
-            // after assigment
+            // after assignment
         System.out.println(c1.radius);
         System.out.println(c2.radius);
 
         /*
-        here, the assigement statement c1 = c2 copies the refernece of c2 into c1 for reference variables, after assignemnt variable c1 and c2 refers to the same objects.
+        here, the assignment statement c1 = c2 copies the reference of c2 into c1 for reference variables, after assignment variable c1 and c2 refers to the same objects.
         */
 
     }

@@ -22,5 +22,6 @@ public class _03GuessNumberRepeat {
                 System.out.println("your guess is too low");
             }
         }
+        scanner.close();
     }
 }

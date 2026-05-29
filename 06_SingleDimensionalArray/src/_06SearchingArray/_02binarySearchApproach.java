@@ -2,7 +2,7 @@ package _06SearchingArray;
 
 public class _02binarySearchApproach {
     /*
-    Binary Search approch
+    Binary Search approach
     Binary search is a searching technique used to find an element in a sorted array by repeatedly dividing the search space into two halves.
 
         It is the other common search approach for a list of values in an array.
@@ -16,12 +16,12 @@ public class _02binarySearchApproach {
                 mid = (low + high) / 2
             • compares 'mid' with the key element.
                 -> if found process terminated
-                -> if not found then choose which half will be used to serach
+                -> if not found then choose which half will be used to search
                     + if key > arr[mid] then right half
                     + if key < arr[mid] then left half
 
         suppose that the array has n element.
-            - after 1st comparison, n/2 elements are left for futher search;
+            - after 1st comparison, n/2 elements are left for further search;
             - after 2nd comparison, (n/2)/2 elements are left
             - for kth comparison, n/2^k elements are left
             when k = log2(n) then only one element is left in the array

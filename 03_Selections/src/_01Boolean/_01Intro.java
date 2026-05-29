@@ -14,5 +14,6 @@ public class _01Intro {
             area = radius * radius * 3.14;
             System.out.println("Area :" + area);
         }
+        scanner.close();
     }
 }

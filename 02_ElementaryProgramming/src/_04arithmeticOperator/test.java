@@ -1,4 +1,4 @@
-package _04arithematicOperator;
+package _04arithmeticOperator;
 
 public class test {
     public static void main(){
