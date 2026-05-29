@@ -56,6 +56,10 @@ class BankAccount{
     private boolean validate(double amt){
         return amt > 0 && amt <= balance;
     }
+
+    public void getAccountNumber(){
+        System.out.println("Account Number: " + accountNumber);
+    }
 }
 
 public class _02dataFieldEncapsulation {
