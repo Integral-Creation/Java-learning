@@ -9,8 +9,6 @@ It is an important and powerful features for reusing same code.
                     -------------------
                     |     Animal      |
                     -------------------
-                    |                 |
-                    -------------------
                     | + sound(): void |
                     -------------------
                              ▲
@@ -18,8 +16,6 @@ It is an important and powerful features for reusing same code.
                |                             |
      -------------------         -------------------
      |       Dog       |         |      Neko       |
-     -------------------         -------------------
-     |                 |         |                 |
      -------------------         -------------------
      | + sound(): void |         | + sound(): void |
      -------------------         -------------------
