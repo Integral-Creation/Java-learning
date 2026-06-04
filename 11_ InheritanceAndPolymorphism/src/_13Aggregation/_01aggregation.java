@@ -3,6 +3,27 @@ package _13Aggregation;
 Aggregation:
     Represents a "has-a" relationship between Objects.
     One Objects contains another objects as part of its structure, but the contained objects can exists independently.
+
++------------------+
+|    🔹Library     |
++------------------+
+| - name : String  |
+| - year : int     |
+| - books : Book[] |
++------------------+
+| + display()      |
++------------------+
+          ◇
+          |
+          |
++------------------+
+|      Book        |
++------------------+
+| - title : String |
+| - pages : int    |
++------------------+
+| + displayInfo()  |
++------------------+
 */
 
 class Book{
