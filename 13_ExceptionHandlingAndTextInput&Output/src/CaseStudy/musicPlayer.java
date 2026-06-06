@@ -13,7 +13,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class musicPlayer {
     public static void main(String[] args) {
-        String filePath = "D:\\MyFolder\\music\\32 Vapor Trail.wav";
+        String filePath = "D:\\MyFolder\\music\\01 A Journey (A Dream of Flight).wav";
         File file = new File(filePath);
 
         try(Scanner scanner = new  Scanner(System.in);
