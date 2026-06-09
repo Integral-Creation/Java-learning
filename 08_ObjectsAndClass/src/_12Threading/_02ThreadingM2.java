@@ -1,6 +1,6 @@
 package _12Threading;
 
-class MyThread implements Runnable{
+class MyThread02 implements Runnable{
     @Override
     public void run(){
         System.out.println("Thread is running Successfully");
@@ -8,7 +8,7 @@ class MyThread implements Runnable{
 }
 public class _02ThreadingM2 {
     public static void main(String[] args) {
-        MyThread thread = new MyThread();
+        MyThread02 thread = new MyThread02();
 
         // Initializing the new Thread object
         Thread t1 = new Thread(thread);
