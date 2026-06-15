@@ -3,8 +3,8 @@ package _01Intro;
 Abstract:
     • it is used to define Abstract class and methods
     • Abstraction is the process of hiding implementation details and showing only the essential features.
-    • Abstract classes CAN't be instantiated directly
-    • Can contain 'abstract' methods (which must be implemented)
+    • Abstract classes CAN't be instantiated directly or It is not used to create OBJECTS
+    • Can contain 'abstract' methods (which must be implemented in concrete subclasses)
     • Can contain 'concrete' methods (which are inherited)
 */
 
