@@ -184,7 +184,7 @@ class RectangleGlobal extends GeometricObjectGlobal{
         System.out.println("The Rectangle is created " + getDateCreated() + " the width is : " + width + " and the length is " + length);
     }
 }
-public class _01caseStudy {
+public class _02caseStudyTestGeometricObject {
     /** Method for comparing the area of two geometric object */
     public static boolean equalArea(GeometricObjectGlobal obj1, GeometricObjectGlobal obj2){
         return obj1.getArea() == obj2.getArea();
