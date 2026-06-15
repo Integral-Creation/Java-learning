@@ -1,5 +1,3 @@
-package CaseStudy;
-
 import java.util.Scanner;
 
 abstract class ShapeGLOBAL{
