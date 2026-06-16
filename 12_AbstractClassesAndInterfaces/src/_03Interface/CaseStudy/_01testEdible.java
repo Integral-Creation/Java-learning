@@ -1,4 +1,4 @@
-package _03Interface._01CaseStudy;
+package _03Interface.CaseStudy;
 
 /*
         <<interface>>
