@@ -1,7 +1,7 @@
 package _03Interface._01InterfaceRulesAndEdgeCase;
 
 /*
-    • A class must implement all interface method
+    • A class must implement all interface methods
 */
 
 interface A1{
