@@ -4,10 +4,10 @@ package _03Interface._01InterfaceRulesAndEdgeCase;
 • One interface implementing multiple interface                       
                 <<interface>>      <<interface>>
                 Interface1         Interface2
-                    ▲                 ▲
-                    ╲               ╱
-                        ╲ «extends»   ╱
-                        ╲           ╱
+                  ▲                 ▲
+                   ╲               ╱
+                    ╲ «extends»   ╱
+                     ╲           ╱
                     +---------------+
                     |   Interface3  |
                     +---------------+
