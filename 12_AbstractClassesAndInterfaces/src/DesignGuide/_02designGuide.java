@@ -1,4 +1,4 @@
-package _03Interface._02DesignGuide;
+package DesignGuide;
 
 /*
     • Use interface while defining capability.

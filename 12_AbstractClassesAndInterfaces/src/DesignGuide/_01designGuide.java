@@ -1,4 +1,4 @@
-package _03Interface._02DesignGuide;
+package DesignGuide;
 
 /*
     • ❓To Decide when to use an Interface or a class, in general we use "is-a" relationship
