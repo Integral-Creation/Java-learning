@@ -9,6 +9,16 @@ Exception Handling:
     • try{}, catch{}, finally{}
 */
 
+/*
+syntax:
+    try{
+        code to run;
+        A statement or a method that may throw an exception;
+    }catch(type e){
+        Code to process the exception;
+    }
+*/
+
 public class _01intro {
     public static void main(String[] args) {
         // System.out.println( 1 / 0); // Exception in thread "main" java.lang.ArithmeticException: / by zero
