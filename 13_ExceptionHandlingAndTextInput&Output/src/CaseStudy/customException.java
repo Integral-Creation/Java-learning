@@ -1,5 +1,3 @@
-package CaseStudy;
-
 class InvalidAgeException extends Exception{
     // parameterized constructor
     InvalidAgeException(String message){
