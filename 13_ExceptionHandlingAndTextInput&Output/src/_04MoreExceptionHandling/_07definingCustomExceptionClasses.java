@@ -22,10 +22,14 @@ public class _07definingCustomExceptionClasses {
 
     public static void main(String[] args) {
         System.out.println("Withdraw 1st");
-        withdraw(10000, 20000);
+        try{
+            withdraw(10000, 20000);
+        }catch(InsufficientBalance e){
+            System.out.println("Error: " + e.getMessage());
+        }
     }
     /*output:
         Withdraw 1st
-            Exception in thread "main" _04MoreExceptionHandling.InsufficientBalance: Insufficient, Available Balance: 10000.0
+        Error: Insufficient, Available Balance: 10000.0
     */
 }
