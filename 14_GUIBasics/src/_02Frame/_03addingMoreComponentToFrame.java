@@ -11,7 +11,7 @@ public class _03addingMoreComponentToFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         // create an ImageIcon
-        ImageIcon image = new ImageIcon("14_GUIBasics/src/_02Frame/chess-knight-solid.png");
+        ImageIcon image = new ImageIcon("14_GUIBasics/src/chess-knight-solid.png");
         frame.setIconImage(image.getImage());
         
         // frame.getContentPane().setBackground(Color.DARK_GRAY); // change color of background
