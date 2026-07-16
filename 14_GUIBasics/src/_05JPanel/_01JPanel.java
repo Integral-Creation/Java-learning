@@ -42,6 +42,7 @@ public class _01JPanel {
         frame.setTitle("TestJPanel");
         frame.setSize(750,750);
         frame.setLocationRelativeTo(null);
+        frame.setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
