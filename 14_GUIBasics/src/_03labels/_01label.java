@@ -5,6 +5,28 @@
 
     • Declaration
         import javax.swing.JLabel;
+    
+                               javax.swing.JComponent
+                                        ▲
+                                        │
+        +------------------------------------------------------------------+
+        |                     javax.swing.JLabel                           |
+        +------------------------------------------------------------------+
+        | - text : String                                                  |
+        | - icon : javax.swing.Icon                                        |
+        | - horizontalAlignment : int                                      |
+        | - horizontalTextPosition : int                                   |
+        | - verticalAlignment : int                                        |
+        | - verticalTextPosition : int                                     |
+        | - iconTextGap : int                                              |
+        +------------------------------------------------------------------+
+        | + JLabel()                                                       |
+        | + JLabel(icon: javax.swing.Icon)                                 |
+        | + JLabel(icon: javax.swing.Icon, hAlignment: int)                |
+        | + JLabel(text: String)                                           |
+        | + JLabel(text: String, hAlignment: int)                          |
+        | + JLabel(text: String, icon: javax.swing.Icon, hAlignment: int)  |
+        +------------------------------------------------------------------+
 */
 
 import java.awt.Color;
