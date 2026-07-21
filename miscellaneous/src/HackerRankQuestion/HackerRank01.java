@@ -1,3 +1,4 @@
+package HackerRankQuestion;
 import java.util.Scanner;
 
 public class HackerRank01 {
