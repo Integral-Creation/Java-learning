@@ -1,3 +1,28 @@
+/*
+    KeyListener
+        A keyListener is an interface in the java.awt.event package that is used to detect the keyboard events.
+
+    • Import
+        import java.awt.event.KeyListener;
+        
+    • Method of keyListener
+        | Method                    | Description                                             |
+        | ------------------------- | ------------------------------------------------------- |
+        | `keyPressed(KeyEvent e)`  | Called when a key is pressed down.                      |
+        | `keyReleased(KeyEvent e)` | Called when a pressed key is released.                  |
+        | `keyTyped(KeyEvent e)`    | Called when a character key is typed (press + release). |
+
+    • KeyEvent methods
+        | Method            | Purpose                                                 |
+        | ----------------- | ------------------------------------------------------- |
+        | `getKeyCode()`    | Returns the virtual key code (e.g., `VK_W`, `VK_LEFT`). |
+        | `getKeyChar()`    | Returns the character typed (e.g., `'a'`).              |
+        | `isShiftDown()`   | Checks if Shift is held.                                |
+        | `isControlDown()` | Checks if Ctrl is held.                                 |
+        | `isAltDown()`     | Checks if Alt is held.                                  |
+
+*/
+
 import java.awt.Color;
 import java.awt.event.*;
 import javax.swing.*;
