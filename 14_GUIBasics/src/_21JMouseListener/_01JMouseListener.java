@@ -1,3 +1,26 @@
+/*
+    Mouse Listener in Java is an interface from the java.awt.event package that lets you detect the mouse click event on a component such as the JFrame, JButton, JLabel etc.
+
+    • Method of Mouse listener
+        | Method                        | Description                                                   |
+        | ----------------------------- | ------------------------------------------------------------- |
+        | `mouseClicked(MouseEvent e)`  | Called when a mouse button is clicked (pressed and released). |
+        | `mousePressed(MouseEvent e)`  | Called when a mouse button is pressed.                        |
+        | `mouseReleased(MouseEvent e)` | Called when a pressed mouse button is released.               |
+        | `mouseEntered(MouseEvent e)`  | Called when the mouse pointer enters a component.             |
+        | `mouseExited(MouseEvent e)`   | Called when the mouse pointer leaves a component.             |
+
+    • Useful event
+        | Method            | Description                                     |
+        | ----------------- | ----------------------------------------------- |
+        | `getX()`          | Returns the X-coordinate of the mouse.          |
+        | `getY()`          | Returns the Y-coordinate of the mouse.          |
+        | `getPoint()`      | Returns the mouse position as a `Point` object. |
+        | `getClickCount()` | Returns the number of clicks.                   |
+        | `getButton()`     | Returns which mouse button was pressed.         |
+
+*/
+
 import java.awt.FlowLayout;
 import java.awt.event.*;
 import javax.swing.*;
