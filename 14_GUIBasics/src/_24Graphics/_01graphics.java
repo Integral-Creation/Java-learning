@@ -1,3 +1,25 @@
+/*
+    Graphics 
+    In java Graphics is a base class used for drawing shapes, text, and images onto the component such as JPanel, JFrame or canvas.
+
+    Graphics Method
+        | Method                     | Description              |
+        | -------------------------- | ------------------------ |
+        | `drawLine(x1, y1, x2, y2)` | Draws a line             |
+        | `drawRect(x, y, w, h)`     | Draws a rectangle        |
+        | `fillRect(x, y, w, h)`     | Fills a rectangle        |
+        | `drawOval(x, y, w, h)`     | Draws an oval/circle     |
+        | `fillOval(x, y, w, h)`     | Fills an oval            |
+        | `drawArc(...)`             | Draws an arc             |
+        | `fillArc(...)`             | Fills an arc             |
+        | `drawRoundRect(...)`       | Rounded rectangle        |
+        | `fillRoundRect(...)`       | Filled rounded rectangle |
+        | `drawPolygon(...)`         | Draws a polygon          |
+        | `fillPolygon(...)`         | Fills a polygon          |
+        | `drawString(text, x, y)`   | Draws text               |
+        | `drawImage(...)`           | Draws an image           |
+*/
+
 import java.awt.*;
 import javax.swing.*;
 
