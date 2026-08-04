@@ -1,3 +1,24 @@
+/*
+    Graphics 2D
+        It is a Subclass of the Graphics that provides more advanced drawing capabilities.
+        While graphics is sufficient for basic shapes and text, Graphics2D adds features like transformation, better rendering, custom strokes, gradients and transparency.
+
+    Common Methods
+        | Method               | Purpose                       |
+        | -------------------- | ----------------------------- |
+        | `draw()`             | Draws the outline of a shape  |
+        | `fill()`             | Fills a shape                 |
+        | `setStroke()`        | Sets line thickness/style     |
+        | `setPaint()`         | Sets color or gradient        |
+        | `rotate()`           | Rotates the coordinate system |
+        | `translate()`        | Moves the origin              |
+        | `scale()`            | Scales drawings               |
+        | `shear()`            | Skews drawings                |
+        | `setComposite()`     | Sets transparency             |
+        | `setRenderingHint()` | Improves rendering quality    |
+
+*/
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
