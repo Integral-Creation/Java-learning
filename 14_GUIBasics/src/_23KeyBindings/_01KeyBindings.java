@@ -1,3 +1,30 @@
+/*
+    Key Binding is a swing features that maps the keyStrokes to an Action.
+
+    Common KeyStrokes 
+        • Single
+            "W"
+            "A"
+            "S"
+            "D"
+        • Arrow Key
+            "UP"
+            "DOWN"
+            "LEFT"
+            "RIGHT"
+        • Modifier
+            "shift W"
+            "ctrl S"
+            "alt X"
+            "ctrl shift N"
+    
+    KeyBinding is commonly used in
+        • Player movement in games
+        • Keyboard shortcut
+        • Menu accelerator
+        • Text editor shortcut
+*/
+
 import java.awt.Color;
 import java.awt.event.*;
 import javax.swing.*;
