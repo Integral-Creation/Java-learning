@@ -4,6 +4,27 @@
 
     • Declaration
         java.awt.Font
+
+    • Font style
+        | Constant                  | Description     |
+        | ------------------------- | --------------- |
+        | `Font.PLAIN`              | Normal text     |
+        | `Font.BOLD`               | Bold text       |
+        | `Font.ITALIC`             | Italic text     |
+        | `Font.BOLD + Font.ITALIC` | Bold and Italic |
+    • Common Method
+        | Method                   | Description                                |
+        | ------------------------ | ------------------------------------------ |
+        | `getFamily()`            | Returns the font family.                   |
+        | `getName()`              | Returns the font name.                     |
+        | `getSize()`              | Returns the font size.                     |
+        | `getStyle()`             | Returns the font style.                    |
+        | `deriveFont(float size)` | Creates a new font with a different size.  |
+        | `deriveFont(int style)`  | Creates a new font with a different style. |
+        | `isBold()`               | Returns `true` if the font is bold.        |
+        | `isItalic()`             | Returns `true` if the font is italic.      |
+
+
 */
 import java.awt.BorderLayout;
 import java.awt.Font;
