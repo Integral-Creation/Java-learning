@@ -6,7 +6,7 @@ import javax.swing.*;
 public class chessBoard extends JFrame {
     JFrame frame = new JFrame();
     JPanel panel = new JPanel();
-    JButton[] buttons = new JButton[64];
+    JButton[][] buttons = new JButton[8][8];
 
     public chessBoard(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -19,29 +19,17 @@ public class chessBoard extends JFrame {
         panel.setBackground(Color.gray);
 
         for(int i = 0; i < 8; i++){
-    
-            if(i % 2 == 0){
-                for(int j = 0; j < 8; j++){
-                    buttons[j] = new JButton(); 
-                    panel.add(buttons[j]);
-                    buttons[j].setFocusable(false);
-                    if( j % 2 == 0){
-                        buttons[j].setBackground(Color.white);
-                    }else{
-                        buttons[j].setBackground(Color.black);
-                    }
-                } 
-            }else{
-                for(int j = 0; j < 8; j++){
-                    buttons[j] = new JButton(); 
-                    panel.add(buttons[j]);
-                    buttons[j].setFocusable(false);
-                    if( (j) % 2 == 0){
-                        buttons[j].setBackground(Color.black);
-                    }else{
-                        buttons[j].setBackground(Color.white);
-                    }
-                } 
+            for(int j = 0; j < 8; j++){
+                buttons[i][j] = new JButton();
+                panel.add(buttons[i][j]);
+                buttons[i][j].setFocusable(false);
+                buttons[i][j].setOpaque(true);
+
+                if((i + j) % 2 == 0){
+                    buttons[i][j].setBackground(Color.white);
+                }else{
+                    buttons[i][j].setBackground(Color.black);
+                }
             }
         }
 
