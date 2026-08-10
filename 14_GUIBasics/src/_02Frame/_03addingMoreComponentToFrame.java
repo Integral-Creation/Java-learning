@@ -1,3 +1,7 @@
+/*
+It creates a JFrame, sets its size and position, changes the frame icon, and sets the background color.
+*/
+
 import java.awt.Color;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
